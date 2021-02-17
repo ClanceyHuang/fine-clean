@@ -1,0 +1,6 @@
+.*
+!.gitignore
+composer.lock
+vendor
+*/RunCache/
+*/app.ini

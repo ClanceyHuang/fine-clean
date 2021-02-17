@@ -1,0 +1,18 @@
+{
+  "require": {
+    "php": ">=7.1.0",
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "App",
+      "Fine\\": "Fine/"
+    }
+  },
+  "suggest": {
+    "ext-redis": "如果缓存驱动为Redis",
+    "ext-msgpack": "globalData和Rpc服务通讯的打包",
+    "ext-swoole": "常驻内存运行必须的扩展",
+    "ext-pdo": "pdo数据库驱动"
+  }
+}
